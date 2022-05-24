@@ -5,7 +5,8 @@
 
 sudo yum update -y
 
-sudo yum install curl wget vim yum-utils mlocate bash-completion
+# developement 
+#sudo yum install curl wget vim yum-utils mlocate bash-completion
 
 sudo yum install httpd mysql-server -y
 
