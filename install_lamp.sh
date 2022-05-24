@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
-
+# install mlocate yum-utils vim and bash completion
 # install apache-2 mysql-server-8.0.26 and php-7.4 
 
 sudo yum update -y
+
+sudo yum install curl wget vim yum-utils mlocate bash-completion
 
 sudo yum install httpd mysql-server -y
 
